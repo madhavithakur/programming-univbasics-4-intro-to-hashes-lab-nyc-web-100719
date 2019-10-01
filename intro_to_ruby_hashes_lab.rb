@@ -41,6 +41,7 @@ def update_counting_hash(hash, key)
   # hash
    if hash.has_key?(key)
     hash[key] += 1 
+    return hash
   else
     hash[:key] = 1
   end 
